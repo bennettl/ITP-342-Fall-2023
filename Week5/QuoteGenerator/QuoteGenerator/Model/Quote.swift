@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Quote : Hashable {
+struct Quote : Hashable, Identifiable {
+    let id: String
     let author: String
     let message: String
 
@@ -17,6 +18,7 @@ struct Quote : Hashable {
     }
 
     func hash(into hasher: inout Hasher) {
+        hasher.combine(id)
         hasher.combine(author)
         hasher.combine(message)
     }

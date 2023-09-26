@@ -23,6 +23,16 @@ struct ContentView: View {
                     .font(.title3)
             }
 
+
+            Image(systemName: "person")
+                
+
+            Button {
+
+            } label: {
+                Image(systemName: "person")
+            }
+
             Button("Generate") {
                 viewModel.randomize()
             }

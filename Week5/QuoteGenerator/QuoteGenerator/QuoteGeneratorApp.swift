@@ -11,7 +11,16 @@ import SwiftUI
 struct QuoteGeneratorApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack {
+                        Text("Hello, World!")
+                            .onTapGesture {
+                                print("Text tapped")
+                            }
+                    }
+                    .onTapGesture {
+                        print("VStack tapped")
+                    }
+
         }
     }
 }
