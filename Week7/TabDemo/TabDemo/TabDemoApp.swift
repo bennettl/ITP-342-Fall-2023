@@ -1,14 +1,14 @@
 //
-//  QuoteGeneratorApp.swift
-//  QuoteGenerator
+//  TabDemoApp.swift
+//  TabDemo
 //
-//  Created by Bennett Lee on 9/18/23.
+//  Created by Bennett Lee on 10/4/23.
 //
 
 import SwiftUI
 
 @main
-struct QuoteGeneratorApp: App {
+struct TabDemoApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()

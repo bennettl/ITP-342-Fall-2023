@@ -1,14 +1,14 @@
 //
-//  QuoteGeneratorApp.swift
-//  QuoteGenerator
+//  AnimationDemo2App.swift
+//  AnimationDemo2
 //
-//  Created by Bennett Lee on 9/18/23.
+//  Created by Bennett Lee on 9/27/23.
 //
 
 import SwiftUI
 
 @main
-struct QuoteGeneratorApp: App {
+struct AnimationDemo2App: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
