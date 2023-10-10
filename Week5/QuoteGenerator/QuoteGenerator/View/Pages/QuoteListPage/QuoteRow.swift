@@ -13,10 +13,8 @@ struct QuoteRow : View {
     var body: some View {
         HStack {
             Image(systemName: "quote.opening")
-
             VStack (alignment: .leading) {
                 Text(quote.message)
-
                 Text(quote.author)
                     .font(.footnote)
             }
