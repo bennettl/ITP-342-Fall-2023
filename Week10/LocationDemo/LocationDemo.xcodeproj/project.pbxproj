@@ -7,22 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4D3AD7B02AE0C37A00B10DD5 /* PhotoPickerDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AD7AF2AE0C37A00B10DD5 /* PhotoPickerDemoApp.swift */; };
-		4D3AD7B22AE0C37A00B10DD5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3AD7B12AE0C37A00B10DD5 /* ContentView.swift */; };
-		4D3AD7B42AE0C37C00B10DD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AD7B32AE0C37C00B10DD5 /* Assets.xcassets */; };
-		4D3AD7B72AE0C37C00B10DD5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3AD7B62AE0C37C00B10DD5 /* Preview Assets.xcassets */; };
+		4D3607622AE752E8004535AF /* LocationDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3607612AE752E8004535AF /* LocationDemoApp.swift */; };
+		4D3607642AE752E8004535AF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3607632AE752E8004535AF /* ContentView.swift */; };
+		4D3607662AE752EA004535AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3607652AE752EA004535AF /* Assets.xcassets */; };
+		4D3607692AE752EA004535AF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3607682AE752EA004535AF /* Preview Assets.xcassets */; };
+		4D3607702AE752F5004535AF /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D36076F2AE752F5004535AF /* LocationService.swift */; };
+		4D3607722AE75DDC004535AF /* MapStaticDemoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3607712AE75DDC004535AF /* MapStaticDemoPage.swift */; };
+		4D3607742AE76250004535AF /* MapDynamicDemoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3607732AE76250004535AF /* MapDynamicDemoPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4D3AD7AC2AE0C37A00B10DD5 /* PhotoPickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoPickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D3AD7AF2AE0C37A00B10DD5 /* PhotoPickerDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerDemoApp.swift; sourceTree = "<group>"; };
-		4D3AD7B12AE0C37A00B10DD5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		4D3AD7B32AE0C37C00B10DD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4D3AD7B62AE0C37C00B10DD5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D36075E2AE752E8004535AF /* LocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3607612AE752E8004535AF /* LocationDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDemoApp.swift; sourceTree = "<group>"; };
+		4D3607632AE752E8004535AF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4D3607652AE752EA004535AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3607682AE752EA004535AF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4D36076F2AE752F5004535AF /* LocationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		4D3607712AE75DDC004535AF /* MapStaticDemoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapStaticDemoPage.swift; sourceTree = "<group>"; };
+		4D3607732AE76250004535AF /* MapDynamicDemoPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDynamicDemoPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4D3AD7A92AE0C37A00B10DD5 /* Frameworks */ = {
+		4D36075B2AE752E8004535AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -32,37 +38,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4D3AD7A32AE0C37A00B10DD5 = {
+		4D3607552AE752E8004535AF = {
 			isa = PBXGroup;
 			children = (
-				4D3AD7AE2AE0C37A00B10DD5 /* PhotoPickerDemo */,
-				4D3AD7AD2AE0C37A00B10DD5 /* Products */,
+				4D3607602AE752E8004535AF /* LocationDemo */,
+				4D36075F2AE752E8004535AF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4D3AD7AD2AE0C37A00B10DD5 /* Products */ = {
+		4D36075F2AE752E8004535AF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4D3AD7AC2AE0C37A00B10DD5 /* PhotoPickerDemo.app */,
+				4D36075E2AE752E8004535AF /* LocationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4D3AD7AE2AE0C37A00B10DD5 /* PhotoPickerDemo */ = {
+		4D3607602AE752E8004535AF /* LocationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				4D3AD7AF2AE0C37A00B10DD5 /* PhotoPickerDemoApp.swift */,
-				4D3AD7B12AE0C37A00B10DD5 /* ContentView.swift */,
-				4D3AD7B32AE0C37C00B10DD5 /* Assets.xcassets */,
-				4D3AD7B52AE0C37C00B10DD5 /* Preview Content */,
+				4D3607612AE752E8004535AF /* LocationDemoApp.swift */,
+				4D3607632AE752E8004535AF /* ContentView.swift */,
+				4D3607652AE752EA004535AF /* Assets.xcassets */,
+				4D3607672AE752EA004535AF /* Preview Content */,
+				4D36076F2AE752F5004535AF /* LocationService.swift */,
+				4D3607712AE75DDC004535AF /* MapStaticDemoPage.swift */,
+				4D3607732AE76250004535AF /* MapDynamicDemoPage.swift */,
 			);
-			path = PhotoPickerDemo;
+			path = LocationDemo;
 			sourceTree = "<group>";
 		};
-		4D3AD7B52AE0C37C00B10DD5 /* Preview Content */ = {
+		4D3607672AE752EA004535AF /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				4D3AD7B62AE0C37C00B10DD5 /* Preview Assets.xcassets */,
+				4D3607682AE752EA004535AF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -70,39 +79,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4D3AD7AB2AE0C37A00B10DD5 /* PhotoPickerDemo */ = {
+		4D36075D2AE752E8004535AF /* LocationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D3AD7BA2AE0C37C00B10DD5 /* Build configuration list for PBXNativeTarget "PhotoPickerDemo" */;
+			buildConfigurationList = 4D36076C2AE752EA004535AF /* Build configuration list for PBXNativeTarget "LocationDemo" */;
 			buildPhases = (
-				4D3AD7A82AE0C37A00B10DD5 /* Sources */,
-				4D3AD7A92AE0C37A00B10DD5 /* Frameworks */,
-				4D3AD7AA2AE0C37A00B10DD5 /* Resources */,
+				4D36075A2AE752E8004535AF /* Sources */,
+				4D36075B2AE752E8004535AF /* Frameworks */,
+				4D36075C2AE752E8004535AF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PhotoPickerDemo;
-			productName = PhotoPickerDemo;
-			productReference = 4D3AD7AC2AE0C37A00B10DD5 /* PhotoPickerDemo.app */;
+			name = LocationDemo;
+			productName = LocationDemo;
+			productReference = 4D36075E2AE752E8004535AF /* LocationDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4D3AD7A42AE0C37A00B10DD5 /* Project object */ = {
+		4D3607562AE752E8004535AF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					4D3AD7AB2AE0C37A00B10DD5 = {
-						CreatedOnToolsVersion = 15.0;
+					4D36075D2AE752E8004535AF = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
-			buildConfigurationList = 4D3AD7A72AE0C37A00B10DD5 /* Build configuration list for PBXProject "PhotoPickerDemo" */;
+			buildConfigurationList = 4D3607592AE752E8004535AF /* Build configuration list for PBXProject "LocationDemo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,42 +119,45 @@
 				en,
 				Base,
 			);
-			mainGroup = 4D3AD7A32AE0C37A00B10DD5;
-			productRefGroup = 4D3AD7AD2AE0C37A00B10DD5 /* Products */;
+			mainGroup = 4D3607552AE752E8004535AF;
+			productRefGroup = 4D36075F2AE752E8004535AF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4D3AD7AB2AE0C37A00B10DD5 /* PhotoPickerDemo */,
+				4D36075D2AE752E8004535AF /* LocationDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4D3AD7AA2AE0C37A00B10DD5 /* Resources */ = {
+		4D36075C2AE752E8004535AF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3AD7B72AE0C37C00B10DD5 /* Preview Assets.xcassets in Resources */,
-				4D3AD7B42AE0C37C00B10DD5 /* Assets.xcassets in Resources */,
+				4D3607692AE752EA004535AF /* Preview Assets.xcassets in Resources */,
+				4D3607662AE752EA004535AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4D3AD7A82AE0C37A00B10DD5 /* Sources */ = {
+		4D36075A2AE752E8004535AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4D3AD7B22AE0C37A00B10DD5 /* ContentView.swift in Sources */,
-				4D3AD7B02AE0C37A00B10DD5 /* PhotoPickerDemoApp.swift in Sources */,
+				4D3607722AE75DDC004535AF /* MapStaticDemoPage.swift in Sources */,
+				4D3607642AE752E8004535AF /* ContentView.swift in Sources */,
+				4D3607702AE752F5004535AF /* LocationService.swift in Sources */,
+				4D3607742AE76250004535AF /* MapDynamicDemoPage.swift in Sources */,
+				4D3607622AE752E8004535AF /* LocationDemoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4D3AD7B82AE0C37C00B10DD5 /* Debug */ = {
+		4D36076A2AE752EA004535AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,7 +220,7 @@
 			};
 			name = Debug;
 		};
-		4D3AD7B92AE0C37C00B10DD5 /* Release */ = {
+		4D36076B2AE752EA004535AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -264,16 +276,17 @@
 			};
 			name = Release;
 		};
-		4D3AD7BB2AE0C37C00B10DD5 /* Debug */ = {
+		4D36076D2AE752EA004535AF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoPickerDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocationDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Just because =)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,7 +297,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.PhotoPickerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -292,16 +305,17 @@
 			};
 			name = Debug;
 		};
-		4D3AD7BC2AE0C37C00B10DD5 /* Release */ = {
+		4D36076E2AE752EA004535AF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PhotoPickerDemo/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"LocationDemo/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Just because =)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -312,7 +326,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.PhotoPickerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.usc.LocationDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,25 +337,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4D3AD7A72AE0C37A00B10DD5 /* Build configuration list for PBXProject "PhotoPickerDemo" */ = {
+		4D3607592AE752E8004535AF /* Build configuration list for PBXProject "LocationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3AD7B82AE0C37C00B10DD5 /* Debug */,
-				4D3AD7B92AE0C37C00B10DD5 /* Release */,
+				4D36076A2AE752EA004535AF /* Debug */,
+				4D36076B2AE752EA004535AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D3AD7BA2AE0C37C00B10DD5 /* Build configuration list for PBXNativeTarget "PhotoPickerDemo" */ = {
+		4D36076C2AE752EA004535AF /* Build configuration list for PBXNativeTarget "LocationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4D3AD7BB2AE0C37C00B10DD5 /* Debug */,
-				4D3AD7BC2AE0C37C00B10DD5 /* Release */,
+				4D36076D2AE752EA004535AF /* Debug */,
+				4D36076E2AE752EA004535AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4D3AD7A42AE0C37A00B10DD5 /* Project object */;
+	rootObject = 4D3607562AE752E8004535AF /* Project object */;
 }
