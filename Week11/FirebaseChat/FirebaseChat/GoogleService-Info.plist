@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD6FDEhNp61EByCy1dBGGc7oeseq6GuwiQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>34922733994</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>edu.usc.FirebaseChat</string>
+	<key>PROJECT_ID</key>
+	<string>itpdemo-c6a21</string>
+	<key>STORAGE_BUCKET</key>
+	<string>itpdemo-c6a21.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:34922733994:ios:7282b22f65e7ae58bc4bd3</string>
+</dict>
+</plist>
